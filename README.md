@@ -1,4 +1,4 @@
-# P2P-File-Sharing-
+# P2P-File-Sharing
 Multithreaded P2P File Sharing in Java Using Socket Programming 
 
 Created a peer-to-peer network for file downloading. It resembles some features of Bittorrent, but much simplified. There are two pieces of software – peer and file owner.
