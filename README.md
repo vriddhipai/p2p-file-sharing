@@ -3,9 +3,7 @@ Multithreaded P2P File Sharing in Java Using Socket Programming
 
 Created a peer-to-peer network for file downloading. It resembles some features of Bittorrent, but much simplified. There are two pieces of software – peer and file owner.
 The file owner has a file, and it breaks the file into chunks of 100KB, each stored as a
-separate file. Note that the last chunk can be smaller than 100KB. The minimum number
-of chunks that the file can be split into is 5. The file owner listens on a TCP port. It
-should be designed as a server that can run multiple threads to serve multiple clients
+separate file. The file owner listens on a TCP port where the file owner is the server that can run multiple threads to serve multiple clients
 simultaneously.
 
 ## Project Requirements
